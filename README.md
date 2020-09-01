@@ -1,9 +1,13 @@
+#Init
+(base) ┌─[orbite]:~/k8s-augusto/K8s-Ansible/k8s-setup-using-ansible-vagrant
+└──> $ vagrant up
+
 # k8s-setup-using-ansible-vagrant
 It's a copy from [kubernetes-setup-using-ansible-and-vagrant](https://kubernetes.io/blog/2019/03/15/kubernetes-setup-using-ansible-and-vagrant/) Kubernetes blog's post. I made some changes to update it.
 
 ```
 
-┌─[torbite]@[Bio2059]:~/k8s-augusto/k8s-setup-using-ansible-vagrant
+┌─[orbite]:~/k8s-augusto/k8s-setup-using-ansible-vagrant
 └──> $ vagrant status
 Current machine states:
 
@@ -19,7 +23,7 @@ VM, run `vagrant status NAME`.
 
 ```
 
-┌─[torbite]@[Bio2059]:~/k8s-augusto/k8s-setup-using-ansible-vagrant
+┌─[orbite]:~/k8s-augusto/k8s-setup-using-ansible-vagrant
 └──> $ vagrant ssh k8s-master
 Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-173-generic x86_64)
 

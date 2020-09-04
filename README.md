@@ -47,7 +47,14 @@ Last login: Wed Feb  5 17:23:19 2020 from 10.0.2.2
 vagrant@k8s-master:~$
 
 ```
-vagrant up # ligar máquina
-vagrant status # verificar status
-vagrant ssh k8s-master # acessar node
-vagrant halt # desligar máquina
+# ligar máquina
+vagrant up 
+
+# verificar status
+vagrant status 
+
+# acessar node
+vagrant ssh k8s-master 
+
+# desligar máquina
+vagrant halt 
